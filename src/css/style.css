@@ -1,0 +1,14 @@
+.draggable {
+  position: absolute;
+  width: 10rem;
+  height: 10rem;
+  border: 3px solid black;
+}
+
+.draggable.circle {
+  border-radius: 50%;
+}
+
+.draggable:hover {
+  cursor: pointer;
+}
